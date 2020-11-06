@@ -1,0 +1,147 @@
+.navba-bg{
+	background: #333;
+	color: #fff;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+.nav-bar{
+	display: flex;
+	list-style-type: none;
+	text-align: center;
+	align-items: center;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align:center;
+	align-items: center;
+	max-width:;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+	padding:10px;
+}
+.logo{
+	padding-left:10px;
+}
+span{
+	color: green;
+}
+#showcase{
+	background: #333 url('./img/showcase.jpg') no-repeat center center/cover;
+	height: 100vh;
+	color:#fff;
+}
+.showcase-content{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	justify-content:center;
+	height: 100%;
+	background-color:rgba(0,0,0,0.4);
+	position: absolute;
+	top:50px;
+	bottom:0px;
+	left:0px;
+	right:0px; 
+}
+h1{
+	margin: 0px;
+
+}
+.btn{
+	display:inline-block;
+	background-color:#93cb52;
+	width:200px;
+	max-width:150px;
+	margin:0 auto;
+	padding:10px;
+	text-decoration:none;
+	color:#fff;
+	border-radius:7px;
+}
+
+
+.container{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.items{
+	display: flex;
+	padding: 1rem;
+}
+
+.item{
+	text-align: center;
+	flex: 1;
+	padding: 1rem;
+}
+.what-we-do{
+	text-align:center;
+}
+.icon{
+	background:#93cb52;
+	padding: 1rem;
+	border-radius: 50%;
+}
+#who{
+	display: flex;
+}
+.who-img{
+	background: #333 url('./img/people.jpg') no-repeat center center/cover;
+}
+
+#who div{
+	flex: 1;
+}
+#who{
+	text-align: center;
+	flex: 1;
+	padding: 1rem;
+}
+.our-term{
+	list-style-type: none;
+}
+.who-text{
+	background: gray;
+	color: #fff;
+	padding: 1rem;
+}
+#clients .items img{
+	display:block;
+	margin: auto;
+	width: 60%;
+}
+#clients{
+	text-align: center;
+}
+.bg-primary{
+	background:#93cb52;
+	color:#fff;
+}
+#contact{
+	display:flex;
+}
+#contact.map,#contact.contact-form{
+	flex:1;
+}
+.form-group{
+	margin:0.75rem;
+}
+label{
+	display: block;
+}
+input{
+	width:100%;
+	padding:0.0rem;
+}
+.contact-form{
+	text-align:center;
+}
+
+
